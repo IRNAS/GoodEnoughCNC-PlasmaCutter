@@ -6,7 +6,7 @@
 
 Industry in vast majority aims to use highest precision and reliability machines, to be capable of producing even the most complicated parts designers come up with. We are flipping such approach on its head, trading precision of manufacturing tools for simplicity and low cost of their construction, to reduce the entry barrier for using them in any environment. 
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/CNC_Plasma-2.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/CNC_Plasma-2.jpg)
 
 ## Prototype Specifications
 Every machine can be tailored to size.
@@ -67,32 +67,32 @@ Any 4 channel CNC controller, tested:
 ### Simplicity
 Can be manufactured using a hand held drill and angle grinder. Non critical parts are 3D and can be made using other manufacturing processes
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/CNC_Plasma.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/CNC_Plasma.jpg)
 
 ### Frame
 Low cost Square tubes are used as structural components and linear rails for trolleys. The frame is kept in rectangular position using two turnbuckles. Removing the turnbuckles allows folding the frame for easy transport. 
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Frame_Top_View.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Frame_Top_View.jpg)
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Turnbuckles.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Turnbuckles.jpg)
 
 ### Trolleys
 Low cost square tubes with holes for motor, bearing positions and tightening. Tightening mechanisms compensate for loose tolerances in hole positioning. The result is a exact fit on the frame.
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Trolley.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Trolley.jpg)
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Trolley_inside.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Trolley_inside.jpg)
 
 ### Z Axis
 Lighter and simpler to manufacture, the Z axis mechanism does not require milled parts like conventional solutions. The torch holder tightly locks the the torch in place without having to modify the handle.
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Z_Axis_CAD.jpg
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Z_Axis.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Z_Axis_CAD.jpg)
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Z_Axis.jpg)
 
 ### Plasma
 The Chinese BMF CUT 50M plasma cutter packs more than enough punch to cleanly cut up to 5 mm sheet metal (10 mm max cut). Additionally a compressor and torch height controller is needed.
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Plasma_and_Height_controller.jpg
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/images/Plasma_and_Height_controller.jpg)
 
 ## Control system
 A number of different CNC controller systems may be applied to this machine. Additionally we have developed an unique fibre optics based interface for the plasma cutter itself, reducing the cost of adding a Torch Height Controller with our custom design, enabling cutting of warped or corrugated surfaces.
