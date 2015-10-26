@@ -714,7 +714,7 @@ transition: opacity ease-in-out 500ms; */
   width: 90%;
   float: none;
   display: block;
-  background: rgba(107,175,55,.05);
+  background: rgb(255,239,239);
   height: auto;
 }
 
