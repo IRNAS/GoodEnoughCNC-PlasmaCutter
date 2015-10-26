@@ -1,0 +1,6 @@
+<li>
+    <a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}active{% endif %}">Home</a>
+</li>
+{% assign pages_list = {site.pages | sort:'order'} %}
+{% assign group = 'navigation' %}
+{% include pages_list %}
