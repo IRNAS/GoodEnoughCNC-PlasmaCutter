@@ -191,6 +191,8 @@ body > section#partner {
 
 .navbar>.container .navbar-brand{
   margin-left: 0;
+  position: absolute;
+  top: 3px;
 }
 
 .top-bar {
