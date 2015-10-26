@@ -49,7 +49,7 @@ h4{
 }
 
 a {
-  color: #6BAF37;
+  color: #ad0000;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -67,7 +67,7 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -76,7 +76,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #6BAF37;
+  background: #ad0000;
   outline: none;
   box-shadow: none;
 } 
@@ -235,7 +235,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
 }
 
@@ -302,7 +302,7 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a.active {
-	background-color: #6BAF37;
+	background-color: #ad0000;
   color: #fff;
 }
 
@@ -323,7 +323,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #6BAF37;
+  background-color: #ad0000;
   color: #fff;
 }
 
@@ -353,7 +353,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #6BAF37;
+  background-color: #ad0000;
   color: #fff;
 }
 
@@ -418,7 +418,7 @@ input.search-form:hover {
 
 #headerSlider .btn-slide {
   padding: 8px 20px;
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
@@ -473,7 +473,7 @@ transition: opacity ease-in-out 500ms; */
 #headerSlider .next {
   position: absolute;
   top: 50%;
-  background-color: #6BAF37;
+  background-color: #ad0000;
   color: #fff;
   display: inline-block;
   margin-top: -25px;
@@ -526,9 +526,9 @@ transition: opacity ease-in-out 500ms; */
 #headerSlider .carousel-indicators .active {
   width: 20px;
   height: 20px;
-  background-color: #6BAF37;
+  background-color: #ad0000;
    margin: 0 15px 0 0;
-   border: 1px solid #6BAF37;
+   border: 1px solid #ad0000;
    position: relative;
 }
 
@@ -538,8 +538,8 @@ transition: opacity ease-in-out 500ms; */
   width: 24px;
   height: 24px;
   border-radius: 100%;
-  background: #6BAF37;
-  border: 1px solid #6BAF37;
+  background: #ad0000;
+  border: 1px solid #ad0000;
   left: -3px;
   top: -3px;
 }
@@ -682,7 +682,7 @@ transition: opacity ease-in-out 500ms; */
   line-height: 110px;
   text-align:center;
   background: #ffffff;
-  color: #6BAF37;
+  color: #ad0000;
   border: 3px solid #ffffff;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
@@ -695,11 +695,11 @@ transition: opacity ease-in-out 500ms; */
 }
 
 .feature-wrap i:hover {
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
-  box-shadow: inset 0 0 0 5px #6BAF37;
-  -webkit-box-shadow: inset 0 0 0 5px #6BAF37;
-  border: 3px solid #6BAF37;
+  box-shadow: inset 0 0 0 5px #ad0000;
+  -webkit-box-shadow: inset 0 0 0 5px #ad0000;
+  border: 3px solid #ad0000;
 }
 
 #what-why-how {
@@ -709,7 +709,7 @@ transition: opacity ease-in-out 500ms; */
 #what-why-how .boxes {
   border-radius: 30px;
   padding: 20px 30px;
-  border: 2px solid #6BAF37;
+  border: 2px solid #ad0000;
   margin: 0 auto 20px auto;
   width: 90%;
   float: none;
@@ -775,7 +775,7 @@ transition: opacity ease-in-out 500ms; */
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -987,12 +987,12 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle i{
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
 }
 
@@ -1599,7 +1599,7 @@ ul.social_icons li  a i{
 }
 
 .request h4 a{
-  background:#6BAF37;
+  background:#ad0000;
   color: #fff;
   font-size: 14px;
   font-weight: normal;
@@ -1608,7 +1608,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:after {
-  border-color: #6BAF37 transparent transparent;
+  border-color: #ad0000 transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1620,7 +1620,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:before {
-  border-color: #6BAF37 transparent transparent;
+  border-color: #ad0000 transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1673,7 +1673,7 @@ ul.social_icons li  a i{
 
 .footer {
   background: none repeat scroll 0 0 #2E2E2E;
-  border-top: 5px solid #6BAF37;
+  border-top: 5px solid #ad0000;
   height: 84px;
   margin-top: 110px;
 }
@@ -1726,8 +1726,8 @@ ul.social_icons li  a i{
 .portfolio-filter > li a:hover,
 .portfolio-filter > li a.active{
   color:#fff;
-  background: #6BAF37;
-  border: 1px solid #6BAF37;
+  background: #ad0000;
+  border: 1px solid #ad0000;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
@@ -2155,12 +2155,12 @@ textarea#message{
 }
 
 .blog_category li a:hover{
-  background:#6BAF37;
+  background:#ad0000;
   color: #fff;
 }
 
  .badge:before {
-  border-color: transparent transparent transparent #6BAF37;
+  border-color: transparent transparent transparent #ad0000;
   border-style: solid;
   border-width: 10px;
   bottom: -8px;
@@ -2172,7 +2172,7 @@ textarea#message{
 }
 
 .badge {
-  background-color: #6BAF37;
+  background-color: #ad0000;
   border-radius: 5px;
   color: #fff;
   padding: 8px;
@@ -2316,7 +2316,7 @@ ul.faq li > div h3 {
 }
 
 #publish_date {
-  background: #6BAF37;
+  background: #ad0000;
   border-bottom: 5px solid #4e4e4e;
   color: #fff;
   padding: 5px 0;
@@ -2349,8 +2349,8 @@ ul.pagination > li > a i{
 
 ul.pagination > li.active > a, 
 ul.pagination > li:hover > a {
-  background-color: #6BAF37 !important;
-  border-color: #6BAF37 !important;
+  background-color: #ad0000 !important;
+  border-color: #ad0000 !important;
   color: #fff;
 }
 
@@ -2391,7 +2391,7 @@ ul.sidebar-gallery {
 }
 
 .tag-cloud li a:hover{
-  background:#6BAF37;
+  background:#ad0000;
   color: #fff;  
 }
 
@@ -2530,7 +2530,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments h1 a:hover{
-  color:#6BAF37;
+  color:#ad0000;
 }
 
 .post_reply_comments h4{
@@ -2546,14 +2546,14 @@ ul.sidebar-gallery {
   bottom: 15px;
   position: absolute;
   right: 30px;
-  background: #6BAF37;
+  background: #ad0000;
   color: #fff;
   border-radius: 5px;
   padding: 8px 20px;
 }
 
 .post_reply_comments a:before {
-  border-color: #6BAF37 transparent transparent;
+  border-color: #ad0000 transparent transparent;
   border-style: solid;
   border-width: 16px;
   bottom: -11px;
@@ -2617,7 +2617,7 @@ shortcodes page css
 ************************/
 #bottom {
   background: #f5f5f5;
-  border-bottom: 5px solid #6BAF37;
+  border-bottom: 5px solid #ad0000;
   font-size: 14px;
 }
 
@@ -2645,7 +2645,7 @@ shortcodes page css
 }
 
 #bottom ul li a:hover {
-  color: #6BAF37;
+  color: #ad0000;
 }
 
 #bottom .widget {
@@ -2664,7 +2664,7 @@ shortcodes page css
 }
 
 #footer a:hover {
-  color: #6BAF37;
+  color: #ad0000;
 }
 
 #footer ul {
@@ -2679,7 +2679,7 @@ shortcodes page css
 }
 
 h1.subpages {
-  color: #6BAF37;
+  color: #ad0000;
   text-transform: uppercase;
 }
 
@@ -2690,7 +2690,7 @@ h1.subpages {
 #history .historyH3 {
   display: block;
   width: auto;
-  background: #6BAF37;
+  background: #ad0000;
   font-size: 24px;
   padding: 10px;
   color: #fff;
@@ -2714,7 +2714,7 @@ h1.subpages {
 #history .oneYear,
 #features .oneSection,
 #whom .oneSection {
-  border-top: 1px dotted #6BAF37;
+  border-top: 1px dotted #ad0000;
   padding-top: 50px;
   margin-top: 30px;
 }
@@ -2733,8 +2733,8 @@ h1.subpages {
 
 #faq .btn-success,
 #contactPage .btn-success {
-  background-color: #6BAF37;
-  border-color: #6BAF37;
+  background-color: #ad0000;
+  border-color: #ad0000;
 }
 
 #contactPage .mc-field-group {
@@ -2756,7 +2756,7 @@ h1.subpages {
 }
 
 #specs .green {
-  background: #6BAF37;
+  background: #ad0000;
 }
 
 #specs .green td {
