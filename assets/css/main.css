@@ -2702,7 +2702,7 @@ h1.subpages {
   position: relative;
   top: -1px;
   margin-right: 7px;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 #history .subtitle {
@@ -2800,7 +2800,7 @@ h1.subpages {
 
   .partners ul li {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 15%;
     clear: none;
     margin: 10px 0 0;
