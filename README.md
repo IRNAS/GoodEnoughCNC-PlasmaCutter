@@ -16,28 +16,23 @@ The good enough CNC Plasma cutter is a parametric bootstrap machine. Dimensions 
 ### Frame Metric
  * 40 mm steel tubes
  * 3 mm thickness
- * Frame Imperial
- * 1.5 inch steel tubes
- * 11 gauge
+ 
 
 ### Trolleys Metric
  * 100 mm steel tubes
  * 3 mm thicknes
 
-### Trolleys Imperial
- * 4 inch steel tubes
- * 11 gauge
 
 ### Footprint
- * Width: L+220 mm 
- * Length: L
+ * Width: 1450 mm 
+ * Length: 900 mm
 
 ### Cutting area
- * Width: L-400 mm
- * Length: L-500 mm
+ * Width: L-900 mm
+ * Length: L-900 mm
 
 ### Z travel
- * Height: Z axis rod length - 170 mm
+ * Height: Z axis rod length - 150 mm
 
 ### XY Motion system
  * Timing belt and pulley (T5 or HTD5M or HTD3M or GT2[worst case])
@@ -86,7 +81,6 @@ Low cost square tubes with holes for motor, bearing positions and tightening. Ti
 ### Z Axis
 Lighter and simpler to manufacture, the Z axis mechanism does not require milled parts like conventional solutions. The torch holder tightly locks the the torch in place without having to modify the handle.
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/Z_Axis_CAD.jpg)
 ![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/Z_Axis.jpg)
 
 ### Plasma
