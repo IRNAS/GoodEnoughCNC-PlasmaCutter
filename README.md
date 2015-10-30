@@ -2,7 +2,7 @@
 
 **Good Enough CNC Plasma Cutter - very low cost and simple, suitable for everyone. **
 
-** Work-in-progress, to be published soon.**
+*Bill of materials and instructions in: Plasma - Files for release -> instructions*
 
 Industry in vast majority aims to use highest precision and reliability machines, to be capable of producing even the most complicated parts designers come up with. We are flipping such approach on its head, trading precision of manufacturing tools for simplicity and low cost of their construction, to reduce the entry barrier for using them in any environment. 
 
