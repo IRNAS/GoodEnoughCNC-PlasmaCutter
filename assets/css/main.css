@@ -2677,7 +2677,7 @@ shortcodes page css
 
 #footer ul > li {
   display: inline-block;
-  margin-left: 15px;
+  margin-right: 15px;
 }
 
 h1.subpages {
@@ -2734,9 +2734,16 @@ h1.subpages {
 }
 
 #faq .btn-success,
-#contactPage .btn-success {
-  background-color: #ad0000;
+#contactPage .btn-success, footer .btn-success {
+  background-color: #ad0000 !important;
   border-color: #ad0000;
+}
+
+
+#faq .btn-success,
+#contactPage .btn-success, footer .btn-success {
+  background-color: #ad0000 !important;
+  border-color: #ad0000 !important;
 }
 
 #contactPage .mc-field-group {
@@ -2854,3 +2861,40 @@ h1.subpages {
     padding: 5px 10px;
   }
 }
+
+footer .fa{
+  font-size:26px;
+}
+
+
+footer h4{
+  color:#fff;
+}
+
+
+.copy{
+  margin-top:20px;
+  color:#E3E3E3;
+  font-size: 12px
+}
+
+
+#mc_embed_signup, #mc-embedded-subscribe{
+  margin-left:0px !important;
+}
+
+footer .col-sm-4{
+  min-height:180px;
+  border-right:solid 1px gray;
+}
+
+#mce-EMAIL{
+  padding:3px;
+  color:#333333;
+  width:250px;
+}
+
+.footer-div{
+  padding:0px 0px 0px 50px;
+}
+
