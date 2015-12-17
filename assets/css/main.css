@@ -2746,6 +2746,10 @@ h1.subpages {
   border-color: #ad0000 !important;
 }
 
+footer .btn-success {
+  margin-top:10px;
+}
+
 #contactPage .mc-field-group {
   margin: 20px 0;
 }
@@ -2897,4 +2901,3 @@ footer .col-sm-4{
 .footer-div{
   padding:0px 0px 0px 50px;
 }
-
