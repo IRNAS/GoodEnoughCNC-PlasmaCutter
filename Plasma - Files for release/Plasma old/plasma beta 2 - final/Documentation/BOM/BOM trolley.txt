@@ -1,0 +1,17 @@
+ITEM NO.	PART NUMBER	DESCRIPTION	QTY.
+1	Beam Short Y1	SHS 100x100x3x130	1
+2	NEMA 23 Stepper motor		1
+3	Timing pulley	Flanged timing pulley	1
+4	Micro switch		2
+5	Bearing F608Z	Belt Ball Bearing fi22	4
+6	Bearing 608ZZ	Ball Bearing fi22	6
+7	DIN 933 M8x120 Grade A 8.8	M8 Hex Bolt	6
+8	DIN 933 M8x20 Grade A 8.8	M8 Hex Bolt	4
+9	DIN 7985 M5x16 Grade A2f	Cross screw M5	4
+10	DIN 934 M8 8.8	M8 Hex Nut	20
+11	DIN 934 M5 8.8	M5 Hex Nut	4
+12	DIN 125 8.4 Grade A	M8 Washer Grade A	10
+13	DIN 127 8.5	M8 Spring Washer	12
+14	DIN 7349 5.3	M5 Washer	4
+15	DIN 7985 M3x12 Grade A2f	Cross screw M3	4
+16	DIN 934 M3 8.8	M3 Hex Nut	4
