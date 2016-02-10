@@ -24,9 +24,22 @@
 
 <body class="{% if page.url == '/index.html' or page.url == site.baseurl %}startpage{% endif %}">
     <header id="header">
-        <a class="headerSliderLogos shuttleworth" href="https://www.shuttleworthfoundation.org/" target="_blank"><img src="{{site.baseurl}}/assets/images/shuttleworth-foundation.png"></a>
+        <a class="headerSliderLogos shuttleworth" href="https://www.shuttleworthfoundation.org/" target="_blank"><img src="{{site.baseurl}}/assets/images/shuttleworth-funded.png"></a>
 
         <!-- Navigation -->
         {% include nav.html %}       
-        
+     
     </header>
+    <div class="second-nav-div navbar-default navbar-static-top">
+    <div class="container">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav nav-second">             
+                <li class="plasma-item"><a href="{{site.baseurl}}/plasma">Plasma</a></li>
+                <li  class="laser-item"><a href="{{site.baseurl}}/mill-laser">Mill & Laser</a></li>
+                <li><a href="{{site.baseurl}}/mini-mill">Mini Mill</a></li>
+                <li><a href="{{site.baseurl}}/troublemaker-3d-printer">Troublemaker 3D Printer</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>

@@ -10,11 +10,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
+}
+
+@media (min-width: 768px){
+body{
   margin-top: 90px;
+}
 }
 
 body.startpage {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 h1,
@@ -192,7 +197,7 @@ body > section#partner {
 .navbar>.container .navbar-brand{
   margin-left: 0;
   position: relative;
-  top: 3px;
+  top: 0px;
 }
 
 .top-bar {
@@ -273,6 +278,7 @@ input.search-form:hover {
 .navbar-brand {
   padding: 0;
   margin:0;
+  margin-top:-5px;
 }
 
 .navbar {
@@ -284,19 +290,19 @@ input.search-form:hover {
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top: 5px;
   margin-left: 5%;
  }
 
 .navbar-nav>li{
   margin-left: 25px;
-  padding-bottom: 28px;
+  padding-bottom: 0px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
   padding: 5px 7px;
   margin: 0;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   color: #fff;
   line-height: 24px;
   display: inline-block;
@@ -610,7 +616,7 @@ transition: opacity ease-in-out 500ms; */
 }
 
 #faq .well p,
-#features .well p {
+.features .well p {
   margin: 0;
 }
 
@@ -643,7 +649,7 @@ transition: opacity ease-in-out 500ms; */
 
 .google-maps {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 60%;
   height: 0;
   overflow: hidden;
 }
@@ -656,7 +662,7 @@ transition: opacity ease-in-out 500ms; */
   height: 300px !important;
 }
 
-.features {
+.features-items {
   padding: 0;
   text-align: center;
 }
@@ -2682,7 +2688,6 @@ shortcodes page css
 
 h1.subpages {
   color: #ad0000;
-  text-transform: uppercase;
 }
 
 #history .dummyImage {
@@ -2714,11 +2719,21 @@ h1.subpages {
 }
 
 #history .oneYear,
-#features .oneSection,
-#whom .oneSection {
+.features .oneSection,
+#whom .oneSection, #contactPage .oneSection, #about .oneSection {
   border-top: 1px dotted #ad0000;
   padding-top: 50px;
   margin-top: 30px;
+}
+
+
+#contactPage .oneSection, #about .oneSection {
+  margin-top:10px;
+}
+
+#contactPage, #about{
+  padding-top:30px;
+   padding-bottom:30px;
 }
 
 #whom h2.big {
@@ -2774,6 +2789,12 @@ footer .btn-success {
 
 #specs .green td {
   color: #fff;
+  font-size:18px;
+  font-weight:400 !important;
+}
+
+.td-em{
+  font-weight:600;
 }
 
 .headerSliderLogos {
@@ -2796,7 +2817,6 @@ footer .btn-success {
     z-index: 1000;
     width: 100%;
     background: #333;
-    box-shadow: 0 10px 30px rgba(0,0,0,.35);
   }
 
   #what-why-how .boxes {
@@ -2807,8 +2827,8 @@ footer .btn-success {
   }
 
   #headerSlider {
-    top: 90px;
-    margin-bottom: 90px;
+    /*top: 90px;*/
+    /*margin-bottom: 90px;*/
   }
 
   .partners ul li {
@@ -2829,10 +2849,15 @@ footer .btn-success {
   .headerSliderLogos {
     display: block;
     position: absolute;
-    width: 140px;
-    height: 89px;
+    width: 103px;
+    height: 65px;
     bottom: 0;
     z-index: 10;
+  }
+
+   .headerSliderLogos img{
+    width:100%;
+   }
   }
 
   .headerSliderLogos.irnas {
@@ -2841,6 +2866,7 @@ footer .btn-success {
 
   .headerSliderLogos.shuttleworth {
     right: 0;
+    top:0;
   }
 }
 
@@ -2849,6 +2875,7 @@ footer .btn-success {
     padding: 5px 10px;
   }
 }
+
 
 @media (min-width: 1200px) {
   #history .dummyImage {
@@ -2900,4 +2927,226 @@ footer .col-sm-4{
 
 .footer-div{
   padding:0px 0px 0px 50px;
+}
+
+/*************************
+***********Nav************
+*************************/
+
+@media (min-width: 768px) { 
+    .twoRow .navbar-collapse {
+        clear: none;
+    }
+}
+
+.clear{
+  clear:both;
+}
+
+.navbar-header{
+  width:100%;
+  padding-bottom:5px;
+}
+
+nav.navbar-nav{
+  width:100%;
+}
+
+.nav-first{
+  width:80%;
+}
+
+.nav-second{
+  float:right;
+  margin-right:10%;
+}
+
+.navbar-inverse {
+  border: none;
+  background: #333;
+}
+
+.second-nav-div{
+  background-color: #474747;
+}
+
+.second-nav-div .navbar-nav > li > a{
+  color:#fff !important;
+}
+
+/*.second-nav-div .navbar-nav > li > a{
+  padding-bottom: 5px;
+}*/
+
+.second-nav-div .navbar-nav{
+  margin-top:0px;
+  margin-bottom:0px;
+
+}
+
+.nav-second > li > a:hover,
+.second-nav-div .nav-second > li.active, 
+.second-nav-div .nav-second > li > a.active {
+background-color: #ad0000 !important;
+color: #fff !important;
+}
+
+
+
+
+@media (min-width: 768px){
+
+.second-nav-div{
+  margin-top:-25px;
+}
+
+.nav-second.navbar-nav>li{
+  padding-bottom:5px;
+}
+.second-nav-div{
+box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+.second-nav-div .navbar-nav>li>a{
+  padding:10px;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+
+.second-nav-div .navbar-nav>li{
+  padding-bottom:0px;
+}
+}
+
+
+@media (max-width: 768px) { 
+.nav-second{
+  float:left;
+}
+.navbar-nav{
+   margin-left:0px;
+}
+}
+
+
+/******************
+****Machines*******
+******************/
+
+.features .col-md-6{
+  background-color:#F5F5F5;
+  margin-bottom:10px;
+  margin-right:10px;
+  min-height:150px;
+}
+
+@media (min-width: 768px){
+ .features .col-md-6{
+  width:48%;
+}
+}
+
+.features .col-sm-6 h2, .features .col-sm-6 p{
+  padding:15px 15px 0px;
+}
+
+.subpages{
+  margin-bottom:20px;
+}
+
+/**************
+**************/
+
+#build-your-own, #get-involved{
+  padding:0px;
+}
+
+.subtitle{
+  text-align:center;
+  font-size:28px;
+  color:#474747;
+  margin-bottom:50px;
+  margin-top:50px;
+}
+
+.features .subpages{
+  text-align: center;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.btn-success{
+  text-align: right;
+  background-color: #ad0000 !important;
+  border-color: #ad0000 !important;
+  border-radius: 0px;
+}
+
+
+.feature-t{
+  color: #ad0000;
+}
+
+.fa-github{
+  margin-right: 10px;
+}
+
+.coming{
+  margin-bottom: 50px;
+}
+
+.btn-right{
+  float:right;
+  margin:5px;
+}
+
+.lead{
+  font-size: 120%;
+}
+
+#build-your-own, #get-involved{
+  border-top: 1px dotted #ad0000;
+  padding-top: 50px;
+  margin-top: 10px;
+}
+
+#get-involved{
+ margin-bottom:50px;
+}
+
+.centered{
+  text-align:center;
+}
+
+.app-inside img{
+  width:30%;
+  margin:0 auto;
+}
+
+.lead-heading{
+  margin-bottom:80px;
+  font-size:28px;
+}
+
+.app-inside h2{
+  color: #ad0000;
+}
+
+#applications{
+  padding-bottom:0px;
+}
+
+#whom{
+  padding-top:20px;
+  margin-bottom:50px;
 }
