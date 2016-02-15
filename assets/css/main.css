@@ -291,7 +291,6 @@ input.search-form:hover {
 
  .navbar-nav{
   margin-top: 5px;
-  margin-left: 5%;
  }
 
 .navbar-nav>li{
@@ -2956,10 +2955,7 @@ nav.navbar-nav{
   width:80%;
 }
 
-.nav-second{
-  float:right;
-  margin-right:10%;
-}
+
 
 .navbar-inverse {
   border: none;
@@ -3008,9 +3004,9 @@ box-shadow: 0 10px 30px rgba(0,0,0,.35);
 }
 
 .second-nav-div .navbar-nav>li>a{
-  padding:10px;
-  margin-top:3px;
-  margin-bottom:3px;
+  padding:7px;
+  /*margin-top:3px;
+  margin-bottom:3px;*/
 }
 
 .second-nav-div .navbar-nav>li{
@@ -3018,16 +3014,67 @@ box-shadow: 0 10px 30px rgba(0,0,0,.35);
 }
 }
 
-
-@media (max-width: 768px) { 
-.nav-second{
-  float:left;
-}
-.navbar-nav{
-   margin-left:0px;
-}
+.nav-first{
+  margin-left:2%;
 }
 
+
+@media screen and (min-width:845px) and (max-width:928px){
+  .nav-second{
+  margin-left:15%;
+}
+}
+
+@media (max-width: 844px){
+ .nav-second{
+  margin-left:0px;
+ padding-bottom:7px;
+padding-top:7px;
+}
+}
+
+@media (min-width:929px) and (max-width:1019px){
+  .nav-second{margin-left:12%;
+}
+}
+
+@media (min-width:1020px) and (max-width:1090px){
+  .nav-second{
+  margin-left:12%;
+}
+}
+
+@media (min-width:1091px) and (max-width:1199px){
+  .nav-second{
+  margin-left:12%;
+}
+}
+
+
+@media (min-width:1200px){
+  .nav-second{
+  margin-left:12%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav-second > li > a{
+padding: 5px 7px;
+    margin: 0;
+    /* border-radius: 3px; */
+    color: #fff;
+    line-height: 24px;
+    display: inline-block;
+}
 
 /******************
 ****Machines*******
