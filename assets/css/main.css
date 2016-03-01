@@ -278,6 +278,7 @@ input.search-form:hover {
 .navbar-brand {
   padding: 0;
   margin:0;
+  margin-right:2%;
   margin-top:-5px;
 }
 
@@ -1149,6 +1150,7 @@ a.accordion-toggle  i{
   background: #333;
   text-align: center;
   border-radius: 10px;
+ 
 }
 
 .contact-info h2 {
@@ -2957,6 +2959,8 @@ nav.navbar-nav{
 
 
 
+
+
 .navbar-inverse {
   border: none;
   background: #333;
@@ -3021,39 +3025,41 @@ box-shadow: 0 10px 30px rgba(0,0,0,.35);
 
 @media screen and (min-width:845px) and (max-width:928px){
   .nav-second{
-  margin-left:15%;
+  margin-left:24%;
 }
 }
 
-@media (max-width: 844px){
+
+
+@media (min-width:768px) and (max-width: 844px){
  .nav-second{
-  margin-left:0px;
+  margin-left:24%;
  padding-bottom:7px;
-padding-top:7px;
+ padding-top:7px;
 }
 }
 
 @media (min-width:929px) and (max-width:1019px){
-  .nav-second{margin-left:12%;
+  .nav-second{margin-left:19%;
 }
 }
 
 @media (min-width:1020px) and (max-width:1090px){
   .nav-second{
-  margin-left:12%;
+  margin-left:19%;
 }
 }
 
 @media (min-width:1091px) and (max-width:1199px){
   .nav-second{
-  margin-left:12%;
+  margin-left:19%;
 }
 }
 
 
 @media (min-width:1200px){
   .nav-second{
-  margin-left:12%;
+  margin-left:16%;
 }
 }
 
