@@ -3223,3 +3223,8 @@ padding: 5px 7px;
 .machine-section{
   padding-bottom:0px;
 }
+
+.machine-photos-row{
+  padding-right:60px;
+  padding-left:60px;
+}
