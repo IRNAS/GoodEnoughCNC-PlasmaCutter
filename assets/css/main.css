@@ -2725,6 +2725,7 @@ h1.subpages {
   border-top: 1px dotted #ad0000;
   padding-top: 50px;
   margin-top: 30px;
+  margin-bottom:30px !important;
 }
 
 
