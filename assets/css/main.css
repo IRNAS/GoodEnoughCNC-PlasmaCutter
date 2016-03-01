@@ -1150,7 +1150,7 @@ a.accordion-toggle  i{
   background: #333;
   text-align: center;
   border-radius: 10px;
- 
+
 }
 
 .contact-info h2 {
@@ -2721,7 +2721,7 @@ h1.subpages {
 
 #history .oneYear,
 .features .oneSection,
-#whom .oneSection, #contactPage .oneSection, #about .oneSection {
+#whom .oneSection, #contactPage .oneSection, #about .oneSection, .oneSection {
   border-top: 1px dotted #ad0000;
   padding-top: 50px;
   margin-top: 30px;
