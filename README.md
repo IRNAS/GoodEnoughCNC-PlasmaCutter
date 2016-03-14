@@ -62,8 +62,6 @@ Any 4 channel CNC controller, tested:
 ### Simplicity
 Can be manufactured using a hand held drill and angle grinder. Non critical parts are 3D and can be made using other manufacturing processes
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/CNC_Plasma.jpg)
-
 ### Frame
 Low cost Square tubes are used as structural components and linear rails for trolleys. The frame is kept in rectangular position using two turnbuckles. Removing the turnbuckles allows folding the frame for easy transport. 
 
