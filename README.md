@@ -6,7 +6,7 @@
 
 Industry in vast majority aims to use highest precision and reliability machines, to be capable of producing even the most complicated parts designers come up with. We are flipping such approach on its head, trading precision of manufacturing tools for simplicity and low cost of their construction, to reduce the entry barrier for using them in any environment. 
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/CNC_Plasma-2.jpg)
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/plasma.jpg)
 
 ## Prototype Specifications
 Every machine can be tailored to size.
@@ -81,7 +81,7 @@ Low cost square tubes with holes for motor, bearing positions and tightening. Ti
 ### Z Axis
 Lighter and simpler to manufacture, the Z axis mechanism does not require milled parts like conventional solutions. The torch holder tightly locks the the torch in place without having to modify the handle.
 
-![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/Z_Axis.jpg)
+![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/z-axis.jpg)
 
 ### Plasma
 The Chinese BMF CUT 50M plasma cutter packs more than enough punch to cleanly cut up to 5 mm sheet metal (10 mm max cut). Additionally a compressor and torch height controller is needed.
