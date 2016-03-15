@@ -3099,8 +3099,7 @@ footer .col-sm-4{
 
 .table-project-info{
 background:#E7E7E7;
-width:100%;
-margin:0px auto 20px;
+margin-bottom:20px;
 }
 
 .table-project-info, .table-project-info>thead>tr>th{
@@ -3137,6 +3136,31 @@ padding-top:10px;
 .table-project-info th a:hover{
   color:#F19B1F;
   text-decoration: none;
+}
+
+.machine-info{
+  background-color:#E7E7E7;
+  height:85px;
+  border-right:1px solid #fff;
+  border-bottom:1px solid #fff;
+  color:#4e4e4e !important;
+  padding-top:12px;
+  text-align: center;
+}
+
+@media(max-width:767px){
+  .machine-info{
+    height:80px;
+  }
+}
+
+.machine-info-block a div:hover{
+background-color:#F19B1F;
+color:#fff !important;
+}
+
+.machine-info-block{
+  margin-bottom:20px;
 }
 
 /*************************
@@ -3478,6 +3502,3 @@ display:none;
   visibility: hidden; 
 }
 
-.col-centered h2, .col-centered h1, .col-centered p{
-  text-align: center;
-}
