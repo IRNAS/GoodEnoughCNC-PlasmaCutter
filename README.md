@@ -89,6 +89,8 @@ The Chinese BMF CUT 50M plasma cutter packs more than enough punch to cleanly cu
 ## Control system
 A number of different CNC controller systems may be applied to this machine. Additionally we have developed an unique fibre optics based interface for the plasma cutter itself, reducing the cost of adding a Torch Height Controller with our custom design, enabling cutting of warped or corrugated surfaces.
 
+##Buy
+You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/index.php?route=product/category&path=60).
 
 ---
 
