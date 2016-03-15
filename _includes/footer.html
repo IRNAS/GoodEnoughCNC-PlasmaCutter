@@ -103,5 +103,32 @@
     <script src="{{site.baseurl}}/assets/js/jquery.isotope.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/main.js"></script>
     <script src="{{site.baseurl}}/assets/js/wow.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+<script>
+// Javascript to enable link to tab
+var url = document.location.toString();
+if (url.match('#')) {
+    $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show') ;
+} 
+
+// Change hash for page-reload
+$('.nav-tabs a').on('shown.bs.tab', function (e) {
+    window.location.hash = e.target.hash;
+})
+
+//Prevent jump
+$('.nav-tabs li a').click( function(e) {
+
+history.pushState( null, null, $(this).attr('href') );
+
+});
+
+$( ".nav-tabs li" ).click(function() {
+   //user clicked on the li
+   scrollTo(0,0);
+});
+
+</script>
+
 </body>
 </html>
