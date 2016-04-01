@@ -3502,3 +3502,29 @@ display:none;
   visibility: hidden; 
 }
 
+.circle-number{
+  width:60px;
+  height:60px;
+  color:#fff;
+  background-color:#F19B1F;
+  border-radius: 50%;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.circle-number span{
+  display:inline-block;
+  margin-top:18px;
+  font-size:200%;
+}
+
+#steps .lead{
+margin-top:10px;
+font-size:150%;
+}
+
+.call-to-action p{
+  margin-top:10px;
+  color:#F2F2F2;
+  font-weight:normal;
+}
