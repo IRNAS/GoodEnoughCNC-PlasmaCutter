@@ -2953,7 +2953,7 @@ footer .col-sm-4{
   background-color:#F5F5F5;
   margin-bottom:10px;
   margin-right:10px;
-  min-height:150px;
+  min-height:172px;
 }
 
 @media (min-width: 768px){
@@ -3544,6 +3544,116 @@ font-size:150%;
 .text-intro{
   margin-bottom:25px;
   color:#777;
-  font-size:16px;
+  font-size:18px;
   text-transform: uppercase;
+}
+
+/***WORKSHOPS***/
+
+@media(min-width:992px){
+.date, .ws-info{
+  min-height:165px;
+}
+}
+
+
+.date, .ws-info{
+  padding:15px;
+}
+
+.date{
+  background-color:#F19B1F; 
+  color:#fff;
+  font-weight:bold;
+  vertical-align: middle;
+  font-size:150%;
+}
+
+.ws-info{
+  background-color: #fff;
+
+}
+
+#workshops .btn{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+.date, .ws-info{
+display: flex;
+align-items: center; /* align vertical */
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.date{
+  justify-content: center; /* align horizontal */
+}
+
+.ws-info-inside{
+  width:100%;
+}
+
+.ws-info h2{
+  margin:0px 0px 10px;
+}
+
+.upcoming-ws{
+  padding-bottom:15px;
+}
+
+.upcoming-ws .btn{
+  overflow:hidden;
+}
+
+#workshops .text-intro, #workshops .lead{
+  text-align: center;
+}
+
+#mc_embed_signup .button{
+  border-radius: 0px !important;
+}
+
+.ws-container{
+  background-color: #F2F2F2;
+  padding:30px;
+}
+
+#workshops{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+#workshops .text-intro, #workshop-troublemaker .text-intro{
+  font-size:24px;
+  color:#F19B1F;
+}
+
+.workshop-list{
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+.emphasize{
+  margin-bottom:30px;
+  text-transform: uppercase;
+}
+
+#workshops .container{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+label{
+  margin-left:10px;
 }
