@@ -3494,7 +3494,7 @@ display:none;
   visibility: hidden;
 }
 
-#plasma:before, #troublemaker:before, #toslink-cnc:before, #precise-xy:before, #mini-mill:before, #large-mill:before{
+#hybrid:before, #troublemaker:before, #toslink-cnc:before, #precise-xy:before, #mini-mill:before, #large-mill:before{
   display: block; 
   content: " "; 
   margin-top: -285px; 
