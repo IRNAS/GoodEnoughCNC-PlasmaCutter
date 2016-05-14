@@ -1,6 +1,6 @@
-# GoodEnoughCNC-PlasmaCutter
+# GoodEnoughCNC-Hybrid
 
-**Good Enough CNC Plasma Cutter - very low cost and simple, suitable for everyone. **
+**Good Enough CNC Hybrid - very low cost and simple, suitable for everyone. Can be mill, plasma or laser cutter.**
 
 *Bill of materials and instructions in: Plasma - Files for release -> instructions*
 
