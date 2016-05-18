@@ -3657,3 +3657,36 @@ align-items: center;
 label{
   margin-left:10px;
 }
+
+.inside-source{
+  margin:0 auto;
+  text-align: center;
+}
+
+.machine-info-block .col-sm-10{
+  text-align: center;
+  margin:0 auto;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
