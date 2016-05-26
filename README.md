@@ -1,8 +1,8 @@
 # GoodEnoughCNC-Hybrid
 
-**Good Enough CNC Hybrid - very low cost and simple, suitable for everyone. Can be mill, plasma or laser cutter.**
+**GoodEnoughCNC Hybrid - very low cost and simple, suitable for everyone. Can be mill, plasma or laser cutter.**
 
-*Bill of materials and instructions in: Plasma - Files for release -> instructions*
+You can find out more on the project website - [goodenoughcnc.eu](http://goodenoughcnc.eu/). Step-by-step assembly instructions are available at [instructions.goodenoughcnc.eu](http://instructions.goodenoughcnc.eu/).
 
 Industry in vast majority aims to use highest precision and reliability machines, to be capable of producing even the most complicated parts designers come up with. We are flipping such approach on its head, trading precision of manufacturing tools for simplicity and low cost of their construction, to reduce the entry barrier for using them in any environment. 
 
@@ -10,7 +10,7 @@ Industry in vast majority aims to use highest precision and reliability machines
 
 ## Prototype Specifications
 Every machine can be tailored to size.
-The good enough CNC Plasma cutter is a parametric bootstrap machine. Dimensions depend on the length of the profiles (Parameter L) and profile sizes. The specification below applies for L=1200mm profiles. 
+The GoodEnoughCNC Hybrid is a parametric bootstrap machine. Dimensions depend on the length of the profiles (Parameter L) and profile sizes. The specification below applies for L=1200mm profiles. 
 
 
 ### Frame Metric
@@ -77,7 +77,7 @@ Low cost square tubes with holes for motor, bearing positions and tightening. Ti
 ![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/Trolley_inside.jpg)
 
 ### Z Axis
-Lighter and simpler to manufacture, the Z axis mechanism does not require milled parts like conventional solutions. The torch holder tightly locks the the torch in place without having to modify the handle.
+Lighter and simpler to manufacture, the Z axis mechanism does not require milled parts like conventional solutions. The torch holder tightly locks the torch in place without having to modify the handle.
 
 ![GoodEnoughCNC-PlasmaCutter](https://raw.github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/master/Images/z-axis.jpg)
 
