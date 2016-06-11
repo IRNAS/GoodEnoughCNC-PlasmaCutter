@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+	
+	<!-- core CSS -->
+    <link href="{{site.baseurl}}/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/css/animate.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+   <link href="{{site.baseurl}}/assets/css/agency.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <!-- <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/ico/favicon.ico"> -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+</head>
+
+<body class="{% if page.url == '/index.html' or page.url == site.baseurl %}startpage{% endif %}">
+    <header id="header">
+        <a class="headerSliderLogos shuttleworth" href="https://www.shuttleworthfoundation.org/" target="_blank"><img src="{{site.baseurl}}/assets/images/shuttleworth-funded.png"></a>
+
+        <!-- Navigation -->
+        {% include nav-1.html %}       
+     
+    </header>

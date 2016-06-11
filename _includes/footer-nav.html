@@ -1,0 +1,14 @@
+<li>
+    <a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}active{% endif %}">Home</a>
+</li>
+<li><a href="{{site.baseurl}}/machines">Machines</a></li>
+{% assign pages_list = {site.pages | sort:'order'} %}
+{% assign group = 'navigation' %}
+{% include pages_list %}
+<li><a href="{{site.baseurl}}/faq">FAQ</a></li>
+<li><a href="{{site.baseurl}}/history">History</a></li>
+<li>
+    <a href="http://irnas.eu/license.html" target="_blank">License</a>
+</li>
+<li><a href="http://irnas.eu/category/goodenoughcnc/" target="_blank">Blog</a></li>
+<li><a href="http://fabrikor.eu/index.php?route=product/category&path=60" target="_blank">Buy</a></li>
