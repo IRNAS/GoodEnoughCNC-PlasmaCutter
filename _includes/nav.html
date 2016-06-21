@@ -12,24 +12,9 @@
 
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{site.baseurl}}/machines">Machines <b class="caret"></b>
-                  </a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                     <li><a href="{{site.baseurl}}/machines/#hybrid">Hybrid</a></li>
-                     <li><a href="{{site.baseurl}}/machines/#troublemaker">Troublemaker 3D printer</a></li>
-                     <li><a href="{{site.baseurl}}/machines/#precise-xy">Precise XY</a></li>
-                     <li><a href="{{site.baseurl}}/machines/#mini-mill">Mini Mill</a></li>
-                     <li><a href="{{site.baseurl}}/machines/#large-mill">Large Mill</a></li>
-                     <li><a href="{{site.baseurl}}/machines/#toslink-cnc">Toslink CNC</a></li>
-                    </ul>
-                  </li>
                     {% assign pages_list = {site.pages | sort:'order'} %}
                     {% assign group = 'navigation' %}
                     {% include pages_list %}
-                <li><a href="http://irnas.eu/category/goodenoughcnc/" target="_blank">Blog</a></li>
-                    <li><a href="http://fabrikor.eu/index.php?route=product/category&path=60" target="_blank">Buy</a></li>
             </ul>
         </div>
     </div>

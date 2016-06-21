@@ -12,15 +12,32 @@
     <link href="{{site.baseurl}}/assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{site.baseurl}}/assets/css/animate.min.css" rel="stylesheet">
     <link href="{{site.baseurl}}/assets/css/prettyPhoto.css" rel="stylesheet">
+
     <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
     <link href="{{site.baseurl}}/assets/css/responsive.css" rel="stylesheet">
-      <link href="{{site.baseurl}}/assets/css/agency.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/css/agency.css" rel="stylesheet">
+
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
     <!-- <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/ico/favicon.ico"> -->
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://goodenoughcnc.eu/cookiepolicy","theme":"light-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
 </head>
 
 <body class="{% if page.url == '/index.html' or page.url == site.baseurl %}startpage{% endif %}">

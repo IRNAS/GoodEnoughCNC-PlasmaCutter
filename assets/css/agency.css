@@ -281,7 +281,7 @@ body {
 }
 
 .bg-primary{
-	background-color:#F19B1F;
+	background-color:#333333;
 }
 
 #what{
@@ -289,8 +289,11 @@ background-color:#F2F2F2;
 }
 
 .bg-primary h2, .bg-primary-dark h2{
-color:#fff;
-font-size:150%;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    text-transform: none;
+    font-size: 1.6em;
 }
 
 .img-icon{
