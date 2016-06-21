@@ -28,10 +28,6 @@
     <![endif]-->       
     <!-- <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/ico/favicon.ico"> -->
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
-   
-    {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
 
       <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <script type="text/javascript">
@@ -40,6 +36,9 @@
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
+
+{% include analytics.html %}
+
 
 </head>
 

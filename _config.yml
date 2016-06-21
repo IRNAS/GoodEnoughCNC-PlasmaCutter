@@ -4,3 +4,6 @@ baseurl:
 
 # gems: 
 #  - jekyll-sitemap
+
+# Google services
+google_analytics: UA-78984121-1
