@@ -4281,3 +4281,25 @@ font-size:1.2em;
 .btn-success{
   margin-bottom:15px;
 }
+
+#mc_embed_signup input{
+   border-radius:0px !important;
+   text-align: center !important;
+   float:none !important;
+}
+
+#mc_embed_signup{
+  border-radius:0px !important;
+}
+
+.mc-field-group{
+  padding-bottom:0px;
+}
+
+.workshop-div-last{
+  margin-bottom:20px;
+}
+
+.btn-right{
+  float:right;
+}

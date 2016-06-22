@@ -1,8 +1,13 @@
 ---
 layout: default
-title: "Other GoodEnoughCNC projects"
+title: "Other projects"
+navigationName: "Other projects"
 folderName: "other-projects"
+group: "navigation"
+order: 5
 ---
+
+
 <div class="container page">
 <div class="row title-row">
 <div class="col-xs-12">
@@ -19,33 +24,21 @@ folderName: "other-projects"
                     <div class="col-md-6 wow fadeInLeftBig">
                     <!-- VIDEO LEFT TITLE -->
                             <h2>Toslink CNC</h2>
-                            <p>You'll start the assembly from the full kit of materials that includes:
-                            <ul>
-                            <li>Pre-fabricated trolleys</li>
-                            <li>Pre-cut main beams</li>
-                            <li>Pre-fabricated plates</li>
-                            <li>Essential Hardware (threaded and smooth rods, screws, nuts, washers, bolts, belts, bearings etc.)</li>
-                            <li>3D printed parts</li>
-                            <li>Pre-soldered and programmed electronics</li>
-                            <li>Stepper Motors 1x Nema 17 and 3x Nema 23</li>
-                            <li>Power supply</li>
-                            <li>Other small parts</li>
-                            <li>Electronics: ToslinkCNC fiber optic control system with Arduino GRBL controller</li>
-                            </ul>
+                            <p>ToslinkCNC is our answer to grounding and interference issues commonly experienced with DIY and low-cost CNC machines. Instead of investing in shielding opto-couplers, we have used low-cost fibre optic cables to change the wiring approach on CNC machines. Stepper motor and driver are placed closely together, preferably in a shielded box, and receive only stabilized DC input and command signals via the optic cable. The controller itself is placed safely away from the machine and thus completely decoupled. The ToslinkCNC transceiver board co-located with the stepper and driver provides step, direction and enable signals as well as an opto-coupled input for a limit switch and an output for enabling peripherals. ToslinkCNC transceiver boards can be daisy-chained to minimize optical wiring required.
                             </p>
-                           
+                            <a class="btn btn-primary btn-success btn-right" href="https://github.com/IRNAS/ToslinkCNC" target="_blank" role="button">More</a>                          
                     </div>
                     <div class="col-md-6 wow fadeInRightBig">
                          <!-- VIDEO -->
                          <img class="img-responsive" src="{{s
-        ite.baseurl}}/assets/images/cnc-machines/goodenoughcnc-hybrid.jpg" alt="">
+        ite.baseurl}}/assets/images/cnc-machines/toslink.JPG" alt="">
                     </div>
                 </div>
                 <div class="row">
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/diagram.png" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/diagram.png" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -60,8 +53,8 @@ folderName: "other-projects"
     </div>
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/toslink-1.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/toslink-1.jpg" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -76,8 +69,8 @@ folderName: "other-projects"
     </div>
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/toslink-2.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/toslink-2.jpg" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -92,8 +85,8 @@ folderName: "other-projects"
     </div>
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/toslink-3.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/toslink-3.jpg" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -113,32 +106,22 @@ folderName: "other-projects"
             <div class="container">
                 <div class="row" >
                     <div class="col-md-6 col-md-push-6 wow fadeInRightBig">
-                    <h4>Precise XY</h4>
-                            <p>Machining toolhead is not included, but we recommend the following options that you may already have at home or can get before the workshop:
-                            <ul>
-                            <li>for mill: 0.8kW watercooled spindle + inverter</li>
-                            <li>for plasma: Telwin Plasma 41</li>
-                            <li>for laser:</li>
-                            </ul>
-                            </p>
-                            <p>There will be demo machining tools available at the workshop, such that you can test them and pick the right one for your work.</p>
-
-                            <p>Find out more about open hardware GoodENoughCNC hybrid.</p>
+                    <h2>Precise XY</h2>
+                            <p>We have observed a lack of a low-cost and simple to construct 3 axis linear translation systems for use in scientific and research applications, ranging from laser beam profiling to automation in plant sciences. PreciseXY project aim to introduce a low-cost and yet precise and stable translation system ready for integration in any project with minimal work.</p>
                             <!-- BUTTON -->
-                            <a class="btn btn-primary btn-success" href="{{s
-        ite.baseurl}}/hybrid" role="button">Learn more</a>
+                            <a class="btn btn-primary btn-success btn-right" href="https://github.com/IRNAS/PreciseXY" target="_blank" role="button">More</a>
                     </div>
                     <div class="col-md-6 col-md-pull-6 wow fadeInLeftBig" >
                          <!-- VIDEO -->
                          <img class="img-responsive" src="{{s
-        ite.baseurl}}/assets/images/cnc-machines/troublemaker-8.jpg" alt="">
+        ite.baseurl}}/assets/images/cnc-machines/precise-xy-1.jpg" alt="">
                     </div>
                 </div>
                 <div class="row">
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-2.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-2" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -153,8 +136,8 @@ folderName: "other-projects"
     </div>
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-3.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-3.jpg" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -169,8 +152,8 @@ folderName: "other-projects"
     </div>
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-4.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-4.jpg" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -185,8 +168,8 @@ folderName: "other-projects"
     </div>
     <div class="col-sm-3 col-xs-12">
         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-5.jpg" alt="">
+                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/precise-xy-5.jpg" rel="prettyPhoto[plasma]">
                             <div class="overlay">
                            
                                 <div class="recent-work-inner">
@@ -202,188 +185,24 @@ folderName: "other-projects"
     </div>
             </div>
 </div>
-<div class="workshop-div">
+<div class="workshop-div workshop-div-last">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 wow fadeInLeftBig">
-                    <h4>Mini mill</h4>
+                    <h2>Mini mill</h2>
                     <!-- VIDEO LEFT TITLE -->
-                           <p>Starting from a full kit of parts you will assemble the trolleys for the machine, drill the holes in main beams, assemble the machine frame then add the motors and belt drive and finally install the electronics.</p>
-                           <p>You will turn on your machine and test the motion in all three axis.</p>
-                            <p>After the workshop you can add a hand-held plasma torch, a spindle for milling or some other tool to your machine and start fabricating parts with it.</p> 
-                            <!-- BUTTON -->
-                            <a class="btn btn-primary btn-success" href="#FEATURES" role="button">Features</a>
+                           <p>Following our habit of making things simple, affordable and good enough, but nevertheless hi-tech and reliable, we are preparing <a href="http://planet-cnc.com/" target="_blank">PlanetCNC</a> MiniCNC machine for open hardware release.
+                            This machine is used primarily for milling of precision aluminium parts and circuit boards.</p> 
                     </div>
                     <div class="col-md-6 wow fadeInRightBig">
                          <!-- VIDEO -->
                          <img class="img-responsive" src="{{s
-        ite.baseurl}}/assets/images/cnc-machines/making.jpg" alt="">
+        ite.baseurl}}/assets/images/cnc-machines/mini-cnc-2.jpg" alt="">
                     </div>
-                </div>
-                <div class="row">
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
     </div>
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>        
-    </div>
-            </div>
 </div>
-<div class="workshop-div workshop-div-bg">
-            <div class="container">
-                <div class="row" >
-                    <div class="col-md-6 col-md-push-6 wow fadeInRightBig">
-                    <!-- VIDEO LEFT TITLE -->
-                    <p>Workshop duration is estimated to 8 working hours. At the end your machine will be up and running and you'll be fully skilled to use it.</p>
-
-                    <p>Tools and other equipment necessary to assemble the system will be available at the workshop.</p>
-
-                    <p>What do you need to bring with you?
-                    <ul>
-                    <li>Laptop computer</li>
-                    <li>2x Metric 13 wrench</li>
-                    <li>DIY spirit and motivation</li>
-                    </ul>
-                    </p>
-                    <p>Price: 850,00 </p>
-                    <a class="btn btn-primary btn-success" href="#FEATURES" role="button">SIGN UP FOR THE WORKSHOP</a>
-                    <p>We need at least 6 people signed up for the workshop to make it happen. You can help us out by inviting your friends and spreading the word.</p>
-                    <p>Need more info? Drop us an email.</p>
-
-                    </div>
-                    <div class="col-md-6 col-md-pull-6 wow fadeInLeftBig" >
-                         <!-- VIDEO -->
-                         <img class="img-responsive" src="{{s
-        ite.baseurl}}/assets/images/cnc-machines/troublemaker-8.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>
-    <div class="col-sm-3 col-xs-12">
-        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" alt="">
-                             <a class="preview" href="{{site.baseurl}}/assets/images/cnc-machines/plasma.jpg" rel="prettyPhoto[plasma]">
-                            <div class="overlay">
-                           
-                                <div class="recent-work-inner">
-                                    <!-- <h3><a href="#">Opis slike?</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae...</p> -->
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                               
-                            </div>
-                             </a>
-         </div>
-    </div>        
-    </div>
-            </div>
 </div>
+
 </section>
 
 
