@@ -4059,7 +4059,7 @@ vertical-align: middle;
     opacity: 1;
     display:inline-block;
     font-size: 20px;
-    padding-top: 60px !important;
+    padding-top: 30px !important;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -4306,4 +4306,16 @@ font-size:1.2em;
 
 #cookiepolicy{
   padding: 100px 50px 50px;
+}
+
+
+
+.img-icon{
+  max-width:60px;
+  margin:0 auto;
+}
+
+.projects h4{
+  font-size:1.2em;
+  letter-spacing: 0em;
 }
