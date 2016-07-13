@@ -4406,3 +4406,15 @@ margin:0 auto
 .bg-pattern .workshop-div-bg{
   background-color:#fff;
 }
+
+.partner-a{
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.partner-logo{
+  max-width:200px;
+  margin:20px auto;
+  text-align: center;
+}
