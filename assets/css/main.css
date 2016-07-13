@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+@import url(../fonts/manteka.ttf);
+@import url(../fonts/carosello.ttf);
 
 
 /*************************
@@ -4121,14 +4123,13 @@ vertical-align: middle;
   line-height:1.5em;
 }
 
-.workshop-div p, .ol-em{
+.workshop-div p, .workshop-div ul, .workshop-div ol{
   font-size:1.3em;
   font-weight:300;
   line-height:1.5em;  
 }
 
 .workshop-div strong{
-  font-size:1.3em;
   font-weight:500;
   line-height:1.5em;    
 }
@@ -4201,8 +4202,10 @@ margin-bottom:20px;
   text-align: center;
 }
 
+@media (min-width:768px){
 .page, #contactPage{
-  margin-top:70px;
+  margin-top:60px;
+}
 }
 
 .txt-centered{
@@ -4318,4 +4321,88 @@ font-size:1.2em;
 .projects h4{
   font-size:1.2em;
   letter-spacing: 0em;
+}
+
+.em-gecnc{
+  font-family:'manteka', 'Arial';
+  color:#EF9921;
+  font-size:36px;
+}
+
+.more-info{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.more-info h3, .more-info .col-sm-6{
+text-align: center;
+}
+
+.more-info .img-responsive{
+max-width:150px !important;
+margin:0 auto 
+}
+
+.em-acad{
+  font-family:'carosello', Arial;
+  color:#333333 !important;
+  font-size:40px;
+  text-transform:none; 
+}
+
+.gecnc{
+   font-family:'manteka', 'Arial';
+  color:#333;
+  font-size:20px;
+  line-height:1.2em;
+}
+
+.gecnc-o{
+  font-family:'manteka', 'Arial';
+  color:#EF9921;
+  font-size:20px;
+  line-height:1.2em; 
+}
+
+.acad-info{
+  font-size:1.2em;
+  margin-top:10px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.acad-info p{
+  margin-top:10px;
+}
+
+.acad-info h4{
+  font-size:1.4em;
+  letter-spacing: 0.05em;
+
+}
+
+.academy{
+  margin-bottom:50px;
+}
+
+.gecnc-o-big{
+  font-family:'manteka', 'Arial';
+  color:#EF9921;
+  font-size:2em;
+  line-height:1.2em; 
+  }
+
+.em-s{
+     font-weight:700 !important;
+}
+
+
+.bg-pattern{
+    background-image: url("images/cubes.png");
+    background-repeat: repeat-xy;
+}
+
+.bg-pattern .workshop-div-bg{
+  background-color:#fff;
 }
