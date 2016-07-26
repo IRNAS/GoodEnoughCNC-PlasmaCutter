@@ -1,6 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-@import url(../fonts/manteka.ttf);
-@import url(../fonts/carosello.ttf);
+@font-face {
+    font-family: manteka;
+    src: url({{ site.url }}/assets/fonts/manteka.ttf);
+}
+@font-face {
+    font-family: carosello;
+    src: url({{ site.url }}/assets/fonts/carosello.ttf);
+}
 
 
 /*************************
