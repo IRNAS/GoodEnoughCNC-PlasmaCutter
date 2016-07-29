@@ -4424,3 +4424,15 @@ margin:0 auto
   margin:20px auto;
   text-align: center;
 }
+
+.quiet{
+  color:#A9A9A9;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+  color:#fff;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
