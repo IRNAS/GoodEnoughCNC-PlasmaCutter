@@ -9,6 +9,8 @@
 }
 
 
+
+
 /*************************
 *******Typography******
 **************************/
@@ -4331,7 +4333,7 @@ font-size:1.2em;
 
 .em-gecnc{
   font-family:'manteka', 'Arial';
-  color:#EF9921;
+  color:#fff;
   font-size:36px;
 }
 
@@ -4358,7 +4360,7 @@ margin:0 auto
 
 .gecnc{
    font-family:'manteka', 'Arial';
-  color:#333;
+  color:#fff;
   font-size:20px;
   line-height:1.2em;
 }
@@ -4435,4 +4437,19 @@ margin:0 auto
 
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
+}
+
+.bothTitles2{
+ background: rgba(0,0,0,.8);
+ margin-top:70px;
+ padding:10px;
+}
+
+.img-title{
+  width:80% !important;
+  margin:30px auto 20px !important;
+}
+
+.bothTitles2 .btn{
+  margin-top:30px;
 }
