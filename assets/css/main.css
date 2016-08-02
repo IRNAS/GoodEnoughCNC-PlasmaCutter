@@ -3836,7 +3836,13 @@ label{
   overflow: hidden;
 }
 
-.content .content-overlay {
+.content1{
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.content .content-overlay, .content1 .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
   height: 100%;
@@ -3852,7 +3858,7 @@ label{
   overflow: hidden;
 }
 
-.content:hover .content-overlay{
+.content:hover .content-overlay, .content1:hover .content-overlay{
   opacity: 1;
 }
 
@@ -3879,7 +3885,7 @@ label{
     overflow: hidden;
 }
 
-.content:hover .content-details{
+.content:hover .content-details, .content1:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
@@ -4452,4 +4458,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .bothTitles2 .btn{
   margin-top:30px;
+}
+
+.right{
+  float:right;
 }
