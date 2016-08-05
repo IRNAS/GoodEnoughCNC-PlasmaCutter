@@ -40,9 +40,11 @@
 {% include analytics.html %}
 
 
+
 </head>
 
 <body class="{% if page.url == '/index.html' or page.url == site.baseurl %}startpage{% endif %}">
+{% include tag-manager.html %}
     <header id="header">
         <a class="headerSliderLogos shuttleworth" href="https://www.shuttleworthfoundation.org/" target="_blank"><img src="{{site.baseurl}}/assets/images/shuttleworth-funded.png"></a>
 
