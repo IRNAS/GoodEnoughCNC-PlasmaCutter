@@ -89,6 +89,13 @@ The Chinese BMF CUT 50M plasma cutter packs more than enough punch to cleanly cu
 ## Control system
 A number of different CNC controller systems may be applied to this machine. Additionally we have developed an unique fibre optics based interface for the plasma cutter itself, reducing the cost of adding a Torch Height Controller with our custom design, enabling cutting of warped or corrugated surfaces.
 
+### Configuration for CNC control systems
+ * Steps per unit (steps/mm): x,y=67.67 z=2560 (using 1/16 microstepping by default)
+ * Maximum speed (mm/min): x,y=8000 z=250
+ * Acceleration (mm^2/min): x,y=80 z=25
+ 
+ Setting file for PlanetCNC is [available](goodenoughcnc-hybrid-planetcnc.setting).
+
 ##Buy
 You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/index.php?route=product/category&path=60).
 
