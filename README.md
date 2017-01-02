@@ -99,7 +99,16 @@ A number of different CNC controller systems may be applied to this machine. Add
  
  Setting file for PlanetCNC is [available](goodenoughcnc-hybrid-planetcnc.setting).
 
-##Buy
+### Configuring Goodrive10 VFD inverter for 0.8kW watercooled spindle
+Manufacturers [user manual for Goodrive10](http://www.invt.com/UploadFiles/en/Files/2013/9/Goodrive10%20Operation%20Manual(V1.3).pdf) documents well all the features. Spindle specific settings for 0.8kW spindle are, modified from defaults:
+ * P00.03 400
+ * P00.04 400
+ * P02.02 400
+ 
+ With this the spindle should run at 24000rpm, note the display either shows 24000 in rpm or 400 in Hz, both representing the same speed.
+ 
+ 
+## Buy
 You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/index.php?route=product/category&path=60).
 
 ---
