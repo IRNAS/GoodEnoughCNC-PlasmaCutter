@@ -97,7 +97,7 @@ A number of different CNC controller systems may be applied to this machine. Add
  * Acceleration X,Y (mm^2/min): 80
  * Acceleration Z (mm^2/min): 25
  
- Setting file for PlanetCNC is [available](goodenoughcnc-hybrid-planetcnc.setting).
+Setting file for PlanetCNC is [available](goodenoughcnc-hybrid-planetcnc.setting).
 
 ### Configuring Goodrive10 VFD inverter for 0.8kW watercooled spindle
 Manufacturers [user manual for Goodrive10](http://www.invt.com/UploadFiles/en/Files/2013/9/Goodrive10%20Operation%20Manual(V1.3).pdf) documents well all the features. Spindle specific settings for 0.8kW spindle are, modified from defaults:
@@ -105,7 +105,7 @@ Manufacturers [user manual for Goodrive10](http://www.invt.com/UploadFiles/en/Fi
  * P00.04 400
  * P02.02 400
  
- With this the spindle should run at 24000rpm, note the display either shows 24000 in rpm or 400 in Hz, both representing the same speed.
+With this the spindle should run at 24000rpm, note the display either shows 24000 in rpm or 400 in Hz, both representing the same speed.
  
  
 ## Buy
