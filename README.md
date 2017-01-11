@@ -109,7 +109,11 @@ Manufacturers [user manual for Goodrive10](http://www.invt.com/UploadFiles/en/Fi
  
  
 ## Buy
-You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/index.php?route=product/category&path=60).
+You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/goodenoughcnc-hybrid).
+
+## Q&A
+
+[Here](https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/blob/master/Q%26A.md) you can read the answers to some frequently asked questions. Please get in touch via [chat](https://chat.irnas.eu/home), [forum](https://goodenoughcnc-hybrid-cnc.readme.io/discuss) or [email](mailto:info@irnas.eu) if you don't find what you're looking for.
 
 ---
 
