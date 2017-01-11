@@ -17,7 +17,7 @@ number of different ones on it:
 
 3) Laser: cutting various materials, subject to laser power. We have no laser cutters in our offer at the moment.
 
-**3. Can I cut or engrave MDF with the laser or plasma? The thickest MDF is 18 mm, can your Laser cut it at thoroughly in single pass at that depth?**
+**3. Can I cut or engrave MDF with the laser or plasma? The thickest MDF is 18 mm, can your laser cut it at thoroughly in single pass at that depth?**
 
 MDF you can cut only with a mill, laser cutting it may produce hazardous vapors. You can buy a number of different milling bits for different applications. The spindle we offer uses ER11 collets, meaning it can fit bits with shaft ranging from 1-7 mm.
 
