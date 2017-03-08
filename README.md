@@ -1,5 +1,7 @@
 # GoodEnoughCNC-Hybrid
 
+#### ! PLEASE NOTE THAT WE NO LONGER ACTIVELY SUPPORT THIS PROJECT. 
+
 **GoodEnoughCNC Hybrid - very low cost and simple, suitable for everyone. Can be mill, plasma or laser cutter.**
 
 You can find out more on the project website - [goodenoughcnc.eu](http://goodenoughcnc.eu/). Step-by-step assembly instructions are available at [instructions.goodenoughcnc.eu](http://instructions.goodenoughcnc.eu/).
@@ -108,12 +110,9 @@ Manufacturers [user manual for Goodrive10](http://www.invt.com/UploadFiles/en/Fi
 With this the spindle should run at 24000rpm, note the display either shows 24000 in rpm or 400 in Hz, both representing the same speed.
  
  
-## Buy
-You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/goodenoughcnc-hybrid).
-
 ## Q&A
 
-[Here](https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/blob/master/Q%26A.md) you can read the answers to some frequently asked questions. Please get in touch via [chat](https://chat.irnas.eu/home), [forum](https://goodenoughcnc-hybrid-cnc.readme.io/discuss) or [email](mailto:info@irnas.eu) if you don't find what you're looking for.
+[Here](https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/blob/master/Q%26A.md) you can read the answers to some frequently asked questions.
 
 ---
 
