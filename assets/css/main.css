@@ -4471,3 +4471,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .no-support{
   margin-top:-1px;
 }
+
+.no-support .btn{
+ cursor: default;}
