@@ -1,6 +1,6 @@
 # HybridCNC Improvements
 
-Here you can find documentation for several improvements to our GoodEnoughCNC Hybrid, which are simplifying the design and making the machine more robust. Everyone interested only in the changes compared to previous version can find the changed files in the folder [HybridCNC-Changed-files-only](/HybridCNC-Changed-files-only). Please note that these improvements are not included in the [HybridCNC assembly instructions](https://goodenoughcnc-hybrid-cnc.readme.io/docs). 
+Here you can find documentation for several improvements to our GoodEnoughCNC Hybrid, which are simplifying the design and making the machine more robust. Everyone interested only in the changes compared to previous version can find the changed files in the folder [HybridCNC-Changed-files-only](https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/tree/master/HybridCNC_v3/HybridCNC-Changed-files-only). Please note that these improvements are not included in the [HybridCNC assembly instructions](https://goodenoughcnc-hybrid-cnc.readme.io/docs). 
 
 ## Z axis
 
