@@ -4,7 +4,9 @@
 
 **GoodEnoughCNC Hybrid - very low cost and simple, suitable for everyone. Can be mill, plasma or laser cutter.**
 
-You can find out more on the project website - [goodenoughcnc.eu](http://goodenoughcnc.eu/). Step-by-step assembly instructions are available at [instructions.goodenoughcnc.eu](http://instructions.goodenoughcnc.eu/).
+You can find out more on the project website - [goodenoughcnc.eu](http://goodenoughcnc.eu/). Step-by-step assembly instructions are available at [instructions.goodenoughcnc.eu](http://instructions.goodenoughcnc.eu/). 
+
+**Technical files for the last, improved version are available in the folder [HybridCNC_v3](https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter/tree/master/HybridCNC_v3). Please note that these improvements are not included in the [HybridCNC assembly instructions](http://instructions.goodenoughcnc.eu/).**
 
 Industry in vast majority aims to use highest precision and reliability machines, to be capable of producing even the most complicated parts designers come up with. We are flipping such approach on its head, trading precision of manufacturing tools for simplicity and low cost of their construction, to reduce the entry barrier for using them in any environment. 
 
