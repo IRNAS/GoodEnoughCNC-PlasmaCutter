@@ -1,20 +1,20 @@
 # HybridCNC Improvements
 
-Here you can find documentation for several improvements to our GoodEnoughCNC Hybrid, which are simplifying the design and making the machine more robust. Everyone interested only in the changes compared to previous version can find the changed files in the folder HybridCNC-Changed-files-only. Please note that these improvements are not included in the [HybridCNC assembly instructions](https://goodenoughcnc-hybrid-cnc.readme.io/docs). 
+Here you can find documentation for several improvements to our GoodEnoughCNC Hybrid, which are simplifying the design and making the machine more robust. Everyone interested only in the changes compared to previous version can find the changed files in the folder [HybridCNC-Changed-files-only](/HybridCNC-Changed-files-only). Please note that these improvements are not included in the [HybridCNC assembly instructions](https://goodenoughcnc-hybrid-cnc.readme.io/docs). 
 
-##Z axis
+## Z axis
 
 We completely changed the structure of the Z axis. Instead of the axial bearings used for railing system we decided to use a linear bearing with casings, which makes the axis sturdier and much more accurate. We replaced the M8 rod used for linear movement of the Z axis with a ball screw and an anti backlash nut with 4 mm pitch, further increasing the accuracy of the whole system, enabling finer movement and longer lifetime. The base plate is now made out of 5 mm aluminium plate, which also increases the structural strength. 
 
 ![HybridCNC-z-axis](../Images/z-axis-improvement.JPG)
 
-##Tightener
+## Tightener
 
 We made some minor changes to the tighteners, mostly reducing parts count and enabling easier installation. The tightener bracket is now a one piece laser cut part made out of tubular stainless steel profile. We also replaced the nuts with a screwing tightener with threads already implemented into the model.
 
-![HybridCNC-tightener](../Images/Tightener-Plate Assembly.JPG)
+![HybridCNC-tightener](../Images/Tightener-Plate-Assembly.JPG)
 
-##Beam short for trolley assembly
+## Beam short for trolley assembly
 
 We added inspection holes used in mounting process of the ball bearings, which help with accurate placement of the ball bearings.
 
