@@ -3072,11 +3072,6 @@ footer .col-sm-4{
   margin-bottom: 50px;
 }
 
-.btn-right{
-  float:right;
-  margin:5px;
-}
-
 .lead{
   font-size: 120%;
 }
@@ -4472,5 +4467,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-top:-1px;
 }
 
-.no-support .btn{
- cursor: default;}
+.not-active{
+  color:#fff;
+  background-color: #F19B1F;
+  padding:10px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+}
